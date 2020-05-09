@@ -1,0 +1,27 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test directory for learn git and node",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosrat2019/Dell-Git-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosrat2019/Dell-Git-Test/issues"
+  },
+  "homepage": "https://github.com/nosrat2019/Dell-Git-Test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
